@@ -1,7 +1,27 @@
 aid: satim
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/satim.png
 name: SATIM
-description: SATIM is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SATIM provides AI-powered analysis of Synthetic Aperture Radar (SAR) imagery for
+  intelligence, surveillance, and reconnaissance (ISR) operations. Its OREC analytics
+  engine performs automated object detection and classification on satellite and
+  airborne SAR data (accuracy up to 95%), deployable in cloud, edge, or air-gapped
+  environments and integrable into C2 and C4ISR workflows. OREC-Intelligence adds
+  persistent monitoring with real-time area-of-interest change alerts and activity
+  pattern analysis. Headquartered in Krakow, Poland, with offices in Dover, Delaware
+  and London. Surfaced as a Techstars portfolio company; no public API surface,
+  developer portal, SDKs, or documentation are published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/satim/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defense
+- Intelligence
+- Geospatial
+- Synthetic Aperture Radar
+- Satellite Imagery
+- Artificial Intelligence
+- ISR
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://satim.co/
+- type: PrivacyPolicy
+  url: https://satim.co/privacy-policy.pdf
+- type: TermsOfService
+  url: https://satim.co/terms-and-conditions.pdf
+- type: DomainSecurity
+  url: security/satim-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
