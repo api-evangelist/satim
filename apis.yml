@@ -34,6 +34,9 @@ description: >-
   and London. Surfaced as a Techstars portfolio company; no public API surface,
   developer portal, SDKs, or documentation are published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/satim/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Surfaced as a Techstars portfolio company; no public API surface, developer portal, SDKs, or documentation are published at this time."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
